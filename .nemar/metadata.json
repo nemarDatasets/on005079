@@ -1,0 +1,38 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005079",
+  "source": "openneuro",
+  "source_id": "ds005079",
+  "title": "The Effects of Directed Therapeutic Intent on Live and Damaged Cells",
+  "authors": {
+    "Lorenzo Cohen": {},
+    "Arnaud Delorme": {},
+    "Peiying Yang": {},
+    "Andrew Cusimano": {},
+    "Sharmistha Chakraborty": {},
+    "Phuong Nguyen": {},
+    "Defeng Deng": {},
+    "Shafaqmuhammad Iqbal": {},
+    "Monica Nelson": {},
+    "Chris Fields": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005079.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "v1.2.1",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
