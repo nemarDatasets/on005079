@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005079",
-  "source": "openneuro",
-  "source_id": "ds005079",
+  "pipeline_stage": "validated",
   "title": "The Effects of Directed Therapeutic Intent on Live and Damaged Cells",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Lorenzo Cohen": {},
     "Arnaud Delorme": {},
@@ -16,23 +16,67 @@
     "Monica Nelson": {},
     "Chris Fields": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005079.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005079",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005079",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset documents a double-blind case study investigating the physiological effects of directed therapeutic intent on live and damaged cells. A self-described energy medicine practitioner participated in 40 treatment sessions over 10 days (approximately 10 sessions daily, ~25 minutes per session), with randomized and double-blinded presentation of: live cells (40 sessions), dead/x-rayed cells (10 sessions), and control medium (10 sessions). Each session consisted of five segments: 2-minute baseline (no cells), 5-minute treatment (still), 5-minute treatment (movement allowed), 5-minute treatment (still), and 2-minute post-treatment baseline. Physiological data were collected during baseline, treatment, and post-treatment periods to assess potential bioeffects of intentional therapeutic intervention under controlled conditions. Matching control samples (n=40) were treated by a sham therapist at a different location.",
+  "methods_description": "Data were collected during 40 sessions over 10 days (approximately 10 sessions daily, ~25 minutes per session). Each session consisted of five segments: 2-minute baseline (no cells), 5-minute treatment (still), 5-minute treatment (movement allowed), 5-minute treatment (still), and 2-minute post-treatment baseline. Cell type presentation (live cells, dead/x-rayed cells, or medium control) was randomized and double-blinded to both the practitioner and experimenter. Forty matching control samples were treated by a sham therapist at a different location to control for cellular outcomes, passage of time, and potential equipment effects.",
+  "keywords": [
+    {
+      "term": "therapeutic intent"
+    },
+    {
+      "term": "energy medicine"
+    },
+    {
+      "term": "cell viability"
+    },
+    {
+      "term": "double-blind case study"
+    },
+    {
+      "term": "bioeffects"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "behavioral measures"
+    },
+    {
+      "term": "complementary medicine"
+    },
+    {
+      "term": "single-subject design"
+    }
+  ],
+  "source_hash": "39b5b0a2a377053e717de4521af3baffd67a18ff73c0614be52b30c63997ba01"
 }
